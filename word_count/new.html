@@ -23,7 +23,75 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
 
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          Omnicalc
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+       <ul class="list-group">
+         <li class="list-group-item">
+           <span class="glyphicon glyphicon-book" aria-hidden="true">
+           </span>
+           Word Count
+         </li>
+         <li class="list-group-item">
+           <span class="glyphicon glyphicon-time" aria-hidden="true">
+           </span>
+           Loan Payment</li>
+           <li class="list-group-item">
+             <span class="glyphicon glyphicon-time" aria-hidden="true">
+             </span>
+             Time Between</li>
+             <li class="list-group-item">
+               <span class="glyphicon glyphicon-search" aria-hidden="true">
+               </span>
+               Descriptive Statistics
+             </li>
+           </ul>
+         </div>
+
+         <div class="col-md-9">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">New Word Count Calculation</h3>
+            </div>
+            <div class="panel-body">
+
+              <form class="form-horizontal">
+               <div class="form-group">
+                <label for="user_text" class="col-sm-2 control-label">Text</label>
+                <div class="col-sm-10">
+                  <textarea name="user_text" class="form-control" rows="3"placeholder="Enter your text"></textarea>
+                  </div>
+                </div>
+               </form>
+
+               <form class="form-horizontal">
+                <div class="form-group">
+                 <label for="user_text" class="col-sm-2 control-label">Special Word (optional)</label>
+                 <div class="col-sm-10">
+                  <textarea name="user_text" class="form-control" rows="2" placeholder="Enter a word to count"></textarea>
+                 </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
